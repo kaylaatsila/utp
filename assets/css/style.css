@@ -7,6 +7,10 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+body{
+    position: relative;
+}
+
 .navbar-brand{
     font-weight: 700;
     font-size: 1.5rem;
@@ -46,6 +50,16 @@
 .section-header{
     font-weight: 700;
     color: var(--clr-dark);
+}
+
+.mytable{
+    scroll-margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.mytable>tbody>tr>td, .mytable>tbody>tr>th {
+    cursor: pointer;
+    padding: 1.25rem;
 }
 
 @media (min-width: 576px) {
