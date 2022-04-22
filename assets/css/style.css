@@ -9,11 +9,12 @@
 
 .navbar-brand{
     font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .nav-link{
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .navbar-brand, .nav-link.active{
@@ -40,6 +41,11 @@
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+}
+
+.section-header{
+    font-weight: 700;
+    color: var(--clr-dark);
 }
 
 @media (min-width: 576px) {
