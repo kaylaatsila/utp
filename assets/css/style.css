@@ -1,6 +1,6 @@
 :root{
     --clr-dark: rgb(31, 41, 55);
-    --clr-light: rgb(107, 114, 128);
+    --clr-gray: rgb(107, 114, 128);
 }
 
 *{
@@ -9,5 +9,41 @@
 
 .navbar-brand{
     font-weight: 700;
+}
+
+.nav-link{
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.navbar-brand, .nav-link.active{
+    color: var(--clr-dark) !important;
+}
+
+.main-header{
+    font-size: 2.5rem;
+    font-weight: bold;
     color: var(--clr-dark);
+}
+
+.text-content{
+    letter-spacing: 0.025rem;
+    font-size: 0.875rem;
+    color: var(--clr-gray);
+}
+
+.my-photo{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+@media (min-width: 576px) {
+    .main-header{
+        font-size: 4rem;
+    }
 }
