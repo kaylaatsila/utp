@@ -31,6 +31,7 @@
 		<title>utp</title>
 	</head>
 	<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="68">
+
 		<!-- navbar -->
 		<nav
 			id="navbar"
@@ -79,7 +80,7 @@
 						<h1 class="main-header">
 							hey, me name's
 							<br />
-							<span class="text-black-50">kayla</span>
+							<span class="text-black-50" id="typed"></span>
 						</h1>
 						<p class="my-4 text-content">
 							Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -203,5 +204,21 @@
 		<!-- boxicons -->
 		<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 
+		<!-- <script src="assets/vendor/jquery/jquery.min.js"></script>
+		<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="assets/vendor/typed.js/typed.min.js"></script> -->
+
+		<!-- personal script -->
+		<script src="assets/js/typed.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<script>
+			var typed = new Typed('#typed',{
+				strings : ['cing', 'kila', 'kalya', 'kayla!'],
+				typeSpeed : 90,
+				delaySpeed : 90,
+				loop : true
+			});
+		</script>
 	</body>
 </html>
