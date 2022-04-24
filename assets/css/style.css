@@ -1,10 +1,13 @@
 :root {
-    --clr-dark: rgb(31, 41, 55);
-    --clr-gray: rgb(107, 114, 128);
+    --clr-dark: #333333;
+    --clr-light: #FFFFFF;
+    --clr-blue: #a4dad7;
+    --clr-gray: #706C61;
 }
 
 * {
     font-family: 'DM Sans', sans-serif;
+    list-style: none;
 }
 
 body {
@@ -14,6 +17,7 @@ body {
 .navbar-brand {
     font-family: 'Bakbak One', cursive;
     font-size: 1.8rem;
+    color: var(--clr-blue);
 }
 
 .nav-link {
@@ -34,7 +38,7 @@ body {
 
 .text-content {
     letter-spacing: .025rem;
-    font-size: .875rem;
+    font-size: .938rem;
     color: var(--clr-gray);
 }
 
@@ -51,6 +55,36 @@ body {
 .section-header {
     font-weight: 700;
     color: var(--clr-dark);
+}
+
+.btn {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.btn:hover {
+    color: var(--clr-blue);
+    background-color: var(--clr-dark);
+    border-color: var(--clr-dark);
+}
+
+.btn:hover i {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+i {
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
 }
 
 .mytable {

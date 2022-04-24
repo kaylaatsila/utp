@@ -15,6 +15,9 @@
     <!-- boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- personal styling -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -56,23 +59,54 @@
                         <span class="text-black-50" id="typed"></span>
                     </h1>
                     <p class="my-4 text-content">It would be nice if you check me out on these site too!</p>
-                    <div class="social-links text-lg-start">
-                        <a href="#" class="btn btn-dark btn-lg shadow-lg twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="btn btn-dark btn-lg shadow-lg facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="btn btn-dark btn-lg shadow-lg instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="btn btn-dark btn-lg shadow-lg github"><i class="bx bxl-github"></i></a>
+                    <div class="social-links d-lg-block">
+                        <a href="https://github.com/kaylaatsila" class="btn btn-dark btn-lg shadow-lg github me-2 " target="_blank"><i class="bx bxl-github"></i></a>
+                        <a href="https://twitter.com/kaylaatsila" class="btn btn-dark btn-lg shadow-lg twitter me-2" target="_blank"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://instagram.com/kaylaatsila" class="btn btn-dark btn-lg shadow-lg instagram me-2" target="_blank"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://facebook.com/kaylaatsila" class="btn btn-dark btn-lg shadow-lg facebook me-2" target="_blank"><i class="bx bxl-facebook"></i></a>
                     </div>
-                    <!-- <a href="" class="btn btn-dark btn-lg shadow-lg">imud af</a> -->
                 </div>
             </div>
+            <!-- <a href="" class="btn btn-dark btn-lg shadow-lg">imud af</a> -->
         </div>
     </section>
 
     <!-- about -->
     <section class="min-vh-100 d-flex align-items-center py-lg-0 py-5" id="about">
-        <div class="container">
+        <!-- <div class="container">
             <h2 class="section-header text-center">About Me</h2>
             <p class="text-center mb-4 text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div> -->
+        <div class="container">
+            <h2 class="section-header text-center">Introduction</h2>
+            <p class="text-center mb-4 text-content">Get to know about me!</p>
+
+            <div class="row">
+                <!-- <div class="col-lg-4" data-aos="fade-right">
+				<img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+			  </div> -->
+                <div class="col-lg-8 pt-4 pt-lg-0 content">
+                    <h3 class="mb-4">Student &amp; (someday a) Web Developer</h3>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class='bx bx-face'></i> <strong>Age:</strong> 19</li>
+                                <li><i class='bx bxs-graduation'></i> <strong>Major:</strong> Computer Science</li>
+                                <li><i class='bx bxs-buildings'></i> <strong>City:</strong> Palembang, ID</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class='bx bx-envelope'></i> <strong>Email:</strong> kaylaatsilaivanka@gmail.com</li>
+                                <li><i class='bx bx-briefcase-alt-2'></i> <strong>Freelance:</strong> Available</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>
+                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -151,6 +185,12 @@
     <!-- boxicons -->
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <!-- personal script -->
     <script src="assets/js/typed.js"></script>
     <script>
@@ -161,6 +201,7 @@
             loop: true
         });
     </script>
+
 </body>
 
 </html>
