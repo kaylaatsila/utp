@@ -59,10 +59,11 @@ body {
 }
 
 #about {
-    background-color: var(--clr-blue);
+    background-color: var(--clr-light);
 }
 
 .main-content {
+    margin-top: 6.5rem;
     font-size: 2rem;
     font-weight: bold;
     color: var(--clr-dark);
@@ -71,6 +72,11 @@ body {
 .main-content span {
     font-size: 1rem;
     color: var(--clr-gray);
+}
+
+.text {
+    margin-top: 2rem;
+    font-weight: bold;
 }
 
 .btn {
@@ -110,7 +116,7 @@ i {
 .mytable>tbody>tr>td,
 .mytable>tbody>tr>th {
     cursor: pointer;
-    padding: 1.25rem;
+    padding: .75rem 1rem;
 }
 
 @media (min-width: 576px) {
