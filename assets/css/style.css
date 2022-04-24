@@ -12,12 +12,12 @@ body {
 }
 
 .navbar-brand {
-    font-weight: 700;
+    font-family: 'Bakbak One', cursive;
     font-size: 1.8rem;
 }
 
 .nav-link {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
 }
 
@@ -33,8 +33,8 @@ body {
 }
 
 .text-content {
-    letter-spacing: 0.025rem;
-    font-size: 0.875rem;
+    letter-spacing: .025rem;
+    font-size: .875rem;
     color: var(--clr-gray);
 }
 
