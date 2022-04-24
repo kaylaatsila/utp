@@ -1,8 +1,8 @@
 :root {
-    --clr-dark: #333333;
-    --clr-light: #FFFFFF;
-    --clr-blue: #a4dad7;
-    --clr-gray: #706C61;
+    --clr-dark: #1E2022;
+    --clr-light: #F0F5F9;
+    --clr-blue: #e2e9ee;
+    --clr-gray: #52616B;
 }
 
 * {
@@ -31,14 +31,14 @@ body {
 }
 
 .main-header {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     font-weight: bold;
     color: var(--clr-dark);
 }
 
 .text-content {
     letter-spacing: .025rem;
-    font-size: .938rem;
+    font-size: .95rem;
     color: var(--clr-gray);
 }
 
@@ -53,8 +53,24 @@ body {
 }
 
 .section-header {
+    font-size: 2.5rem;
     font-weight: 700;
     color: var(--clr-dark);
+}
+
+#about {
+    background-color: var(--clr-blue);
+}
+
+.main-content {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--clr-dark);
+}
+
+.main-content span {
+    font-size: 1rem;
+    color: var(--clr-gray);
 }
 
 .btn {
