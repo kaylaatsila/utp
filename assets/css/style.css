@@ -1,7 +1,7 @@
 :root {
     --clr-dark: #1E2022;
     --clr-light: #F0F5F9;
-    --clr-blue: #e2e9ee;
+    --clr-blue: #b5d6ee;
     --clr-gray: #52616B;
 }
 
@@ -94,11 +94,11 @@ body {
 }
 
 .btn:hover i {
-    transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -o-transform: scale(1.5);
+    transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
 }
 
 i {
@@ -117,6 +117,15 @@ i {
 .mytable>tbody>tr>th {
     cursor: pointer;
     padding: .75rem 1rem;
+}
+
+.mytable>tbody>tr>td:hover {
+    color: var(--clr-gray);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 
 @media (min-width: 576px) {
