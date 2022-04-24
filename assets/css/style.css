@@ -1,43 +1,44 @@
-:root{
+:root {
     --clr-dark: rgb(31, 41, 55);
     --clr-gray: rgb(107, 114, 128);
 }
 
-*{
+* {
     font-family: 'DM Sans', sans-serif;
 }
 
-body{
+body {
     position: relative;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-weight: 700;
     font-size: 1.8rem;
 }
 
-.nav-link{
+.nav-link {
     font-weight: 600;
     font-size: 1rem;
 }
 
-.navbar-brand, .nav-link.active{
+.navbar-brand,
+.nav-link.active {
     color: var(--clr-dark) !important;
 }
 
-.main-header{
+.main-header {
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--clr-dark);
 }
 
-.text-content{
+.text-content {
     letter-spacing: 0.025rem;
     font-size: 0.875rem;
     color: var(--clr-gray);
 }
 
-.my-photo{
+.my-photo {
     object-fit: cover;
     width: 100%;
     border-radius: 1rem;
@@ -47,22 +48,23 @@ body{
     -o-border-radius: 1rem;
 }
 
-.section-header{
+.section-header {
     font-weight: 700;
     color: var(--clr-dark);
 }
 
-.mytable{
+.mytable {
     scroll-margin-top: 4rem;
 }
 
-.mytable>tbody>tr>td, .mytable>tbody>tr>th {
+.mytable>tbody>tr>td,
+.mytable>tbody>tr>th {
     cursor: pointer;
     padding: 1.25rem;
 }
 
 @media (min-width: 576px) {
-    .main-header{
+    .main-header {
         font-size: 4rem;
     }
 }
